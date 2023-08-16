@@ -1,0 +1,137 @@
+sudo su -l:when ever went to root user that time you will enter the command	
+pwd->present working directort it will show you where you are 
+linux is case sensitive
+uname->if you give uname it will tell us which operating system you are in so you are in linux operating system
+uname -a->it will give you full information
+sudo--super user do
+apt--advanced package tool
+ls: List files and directories in the current directory.
+
+cd: The cd command is used to change the current directory.
+
+pwd: Print the current working directory.
+
+mkdir: Create a new directory.
+
+rmdir: The rmdir command is used to delete a directory.
+
+cp:The cp command is used to copy a file or directory.
+
+cp -r :copy files in one directory to another subfoloder forcely
+
+mv:The mv command is used to move a file or a directory form one location to another location.
+
+rm: Remove files 
+rm -r:remove  directories.
+
+touch: Create an empty file or update the access and modification times of an existing file.
+
+cat: Display the contents of a file.
+
+more / less: Display the contents of a file one screen at a time.
+
+head -n <filename>:The head command is used to display the content of a file. It displays the first 10 lines of a file.
+
+
+tail -n <filename>: Display the last few lines of a file.
+
+grep "word" <filename>: the grep command searches for a specified pattern  in one or more files 
+grep stands --Global Regular Expression Print.
+
+find: Search for files and directories based on various criteria.
+
+chmod: The chmod command is used to change the permissions of files and directories
+ex:chmod <permissions> <file-or-directory>
+
+chown: The chown command is used to change the ownership of files and directories.
+ex:sudo chown <new-owner> <file-or-directory>
+id:The id command is used to display the user ID (UID) and group ID (GID).
+
+date:The date command is used to display date, time, time zone, and more.
+
+cal:The cal command is used to display the current month's calendar with the current date highlighted.
+
+sleep:The sleep command is used to hold the terminal by the specified amount of time. By default, it takes time in seconds.
+
+time:The time command is used to display the time to execute a command.
+
+clear: clear command is used to clear the terminal screen.
+
+exit:exit command is used to exit from the current shell.
+
+ps: Display information about currently running processes.
+
+top: Display a dynamic view of system processes and resource usage.
+
+kill: Terminate processes using their process IDs (PIDs).
+
+nano / vi / vim: Text editors for creating and editing files.
+
+wget url: Download files from the internet.
+
+curl url: Transfer data to or from a server using various protocols.
+
+ssh: Connect to a remote server securely using the SSH protocol.
+
+scp: Securely copy files between local and remote hosts using SSH.
+
+df: Display information about disk space usage.
+
+du: Display disk usage of files and directories.
+
+tar: Compress or decompress files and directories into a single archive file.
+
+zip / unzip: Create or extract zip compressed files.
+
+ping: Test network connectivity to a host.
+
+ifconfig / ip: Display or configure network interfaces.
+
+sudo: Execute a command with superuser (root) privileges.
+
+useradd: Add a new user account.
+sudo useradd <username>
+usermod: The usermod command is used to modify user account properties
+sudo usermod -d <new-home-directory> <username>
+passwd: Change a user's password.
+sudo passwd <username>
+userdel: The userdel command is used to delete a user account.
+
+Example: sudo userdel <username>
+history: Display the command history.
+
+groupadd:The groupadd command is used to create a user group.
+getent passwd:The getent passwd command in Linux is used to retrieve user account information from the system's account databases
+ gpasswd -d kumar developer:remove user from group
+
+how to insatll visualcode in ubuntusoftware
+-------------------------------------------
+
+by using this command sudo snap install --classic code
+terminal ask the password and give password the vs is installed
+
+how to install chrome
+------------------
+1.sudo apt update
+2.sudo apt upgrade
+3.wget --version
+4.sudo apt install wget
+5.wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+6.sudo dpkg -i google-chrome-stable_current_amd64.deb
+7.google-chrome
+
+how to install mysql
+--------------------
+1 sudo apt update
+2 sudo apt upgrade
+3 sudo apt install python3 python3-pip mysql-server libmysqlclient-dev
+4 sudo mysql -u root -p
+5.create database databasename
+6.CREATE user 'ashu'@'localhost' IDENTIFIED BY 'Admin2k';
+7 GRANT ALL PRIVILEGES ON crmdb.* TO 'ashu'@'localhost';
+8.FLUSH PRIVILEGES;
+9.exit
+
+
+
+
